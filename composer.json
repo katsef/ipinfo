@@ -1,0 +1,24 @@
+{
+	"name" : "webazon/ipinfo",
+	"description" : "PHP library for IPinfo (IP geolocation and other types of IP data)",
+	"type" : "library",
+	"license" : "MIT",
+	"autoload" : {
+		"psr-4" : {
+			"Webazon\\Ipinfo\\" : "src/"
+		}
+	},
+	"authors" : [
+		{
+			"name" : "Aleksey Katsef",
+			"email" : "aleksey@katsef.com"
+		}
+	],
+	"minimum-stability" : "dev",
+	"require" : {
+		"ipinfo/ipinfo" : "^3.4@dev",
+		"symfony/http-foundation" : "^6.0 || ^6.2 || ^7.0",
+		"php" : ">=8.3",
+		"ext-json" : "*"
+	}
+}
